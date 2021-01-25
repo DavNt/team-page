@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif|Montserrat|Poppins&display=swap');
+
+/* global style */
+.heading h1 {
+	font-weight: bold;
+	line-height: 48px;
+	letter-spacing: -0.045em;
+	color: #000000;
+}
+
+.heading h1, .title {
+	font-family: 'PT Serif', serif;
+	font-style: normal;
+}
+
+.description, .names {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+}
+
+.description h2 {
+	font-weight: 600;
+	line-height: 27px;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+.description p {
+	font-weight: normal;
+	line-height: 27px;
+}
+
+.names {
+	font-weight: 600;
+	font-style: normal;
+}
+
+.title {
+	writing-mode: vertical-lr;
+}
+
+footer p {
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	color: #A9A9A9;
+	text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	.heading h1{
+		margin-left: 12px;
+		margin-top: 70px;
+	}
+	
+	.description h2{
+		margin-left: 12px;
+		margin-top: 40px;
+	}
+	
+	.description p{
+		margin-left: 12px;
+		margin-top: 10px;
+		font-size: 14px;
+	}
+	
+	img {
+		width: 100px;
+		height: 170px;
+	}
+	
+	.container {
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+	
+	.member {
+		margin-top: 70px;
+		margin-left: 10%;
+		margin-right: 10%;
+		display: flex;
+	}
+	
+	.title {
+		font-size: 10px;
+	}
+	
+	.names {
+		font-size: 12px;
+	}
+	
+	.mobile {
+		padding-top: 25px;
+	}
+	
+	footer p {
+		margin-top: 80px;
+	}
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 760px) {
+	.heading {
+		display: flex;
+	}
+	
+	.heading h1 {
+		margin-top: 110px;
+		margin-left: 10%;
+		font-size: 36px;
+	}
+	
+	.heading h2 {
+		margin-top: 110px;
+		margin-left: 20%;
+	}
+	
+	.heading p {
+		font-size: 18px;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+	
+	img {
+		width: 100px;
+		height: 170px;
+	}
+	
+	.container {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		align-items: center;
+		margin-left: 50px;
+	}
+	
+	.center {
+		padding-top: 80px;
+	}
+} 
+
+/* Large devices (laptops/desktops, 992px and up)  */
+@media only screen and (min-width: 992px) {
+	.heading {
+		display: flex;
+	}
+	
+	.heading h1 {
+		margin-top: 110px;
+		margin-left: 10%;
+		font-size: 36px;
+	}
+	
+	.heading h2 {
+		margin-top: 110px;
+		margin-left: 20%;
+	}
+	
+	.heading p {
+		font-size: 18px;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+	
+	img {
+		width: 270px;
+		height: 370px;
+	}
+	
+	.container {
+		display: grid;
+		grid-template-columns: auto auto auto;
+	}
+	
+	.member {
+		margin-top: 100px;
+		margin-left: 10%;
+		margin-right: 10%;
+		display: flex;
+	}
+	
+	.center {
+		padding-top: 80px;
+	}
+	
+	.title {
+		font-size: 12px;
+	}
+	
+	.names {
+		font-size: 18px;
+	}
+	
+	footer p {
+		margin-top: 100px;
+	}
+} 
